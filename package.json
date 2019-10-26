@@ -1,6 +1,6 @@
 {
   "name": "cp-filesearch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This utility package find filename or keyword of filename across all the attached drives of the system.This utility will find filename all files containing keywords regardless uppercase, lowercase or capitalized word..File list will be presented with file stats",
   "main": "index.js",
   "bin": {
