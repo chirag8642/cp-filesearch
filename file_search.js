@@ -5,7 +5,7 @@ const filehound = require('filehound');
 const _ = require('lodash');
 
 
-module.exports = function (keyword) {
+module.exports = function (keyword, isWrite) {
     drivelist.list().then((drives) => {
         const drivePath = _.map(drives, (drive) => {
             return drive.mountpoints;
@@ -20,6 +20,12 @@ module.exports = function (keyword) {
                     .find();
                 files.then((file) => {
                     if (file.length > 0) {
+                        if (isWrite) {
+                            if (!fs.existsSync('C:\\filesearch')) {
+                                fs.mkdirSync('C:\\filesearch')
+                            }
+                            fs.appendFileSync('C:\\filesearch\\search.txt', JSON.stringify(file, null, '\t'), 'utf8');
+                        }
                         console.log("files::", file);
                     } else {
                         console.log(`Nothing in this Folder or Drive: ${driveLetter.path}`);
