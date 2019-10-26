@@ -40,5 +40,5 @@ e.g
 ```js
 filesearch search --help 
 ```
-Result
+### Result
 <img src="https://cdn1.imggmi.com/uploads/2019/10/26/ad7c66b80561ac3577ef40094d2f7185-full.png" width="600" />
