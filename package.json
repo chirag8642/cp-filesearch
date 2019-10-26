@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["file search", "files in drives", "file search across drives"],
   "author": "Chirag Patel",
   "license": "MIT",
   "dependencies": {
@@ -22,5 +22,13 @@
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
     "sinon": "^7.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chirag8642/cp-filesearch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chirag8642/cp-filesearch/issues"
+  },
+  "homepage": "https://github.com/chirag8642/cp-filesearch"
 }
