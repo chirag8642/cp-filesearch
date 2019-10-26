@@ -23,7 +23,7 @@ yargs.command({
 
 function validate2(argv) {
     if (argv.fileName.length === 0) {
-        throw new Error("src should not be empty");
+        throw new Error("filename or keywords should not be empty");
     }
 }
 yargs.parse();
