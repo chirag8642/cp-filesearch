@@ -35,3 +35,10 @@ e.g
 <img src="https://cdn1.imggmi.com/uploads/2019/10/26/3a383e5460811040191134ae8a75b42b-full.png" height="20" width="600">
 #### Result
 <img src="https://cdn1.imggmi.com/uploads/2019/10/26/923efdcc62b3f52bd4fb754898b02756-full.png" width="600"/>
+
+#### For help
+```js
+filesearch search --help 
+```
+Result
+<img src="https://cdn1.imggmi.com/uploads/2019/10/26/ad7c66b80561ac3577ef40094d2f7185-full.png" width="600" />
