@@ -17,8 +17,8 @@ This utility package find filename or keyword of filename across all the attache
 This utility will find filename all files containing keywords regardless uppercase, lowercase or capitalized word..
 File list will be presented with file stats.
 
-#### For filesearch
-##### Example: Provide full file name or just keyword of filename to find file across all the attached drives.
+#### For file search
+##### Provide full file name or just keyword of filename to find file across all the attached drives.
 
 
 ```js
@@ -37,7 +37,7 @@ e.g
 <img src="https://cdn1.imggmi.com/uploads/2019/10/26/923efdcc62b3f52bd4fb754898b02756-full.png" width="600"/>
 
 #### For Writing result in file
-##### Example: Optionally you can provide write flag (-w="true" or --writeFile="true"). By default this flag is false.This flag will create search.txt file in C:\filesearch directory. 
+##### Optionally you can provide write flag (-w="true" or --writeFile="true"). By default this flag is false.This flag will create search.txt file in C:\filesearch directory. 
 
 Example: 
 ```js
